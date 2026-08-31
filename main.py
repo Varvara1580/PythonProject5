@@ -18,3 +18,7 @@ def about():
 @app.get('/health')
 def health():
     return {'message': 'health'}
+
+@app.get('/version')
+def version():
+    return {'message': 'version'}
