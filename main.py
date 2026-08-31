@@ -13,7 +13,7 @@ def hello():
 
 @app.get('/about')
 def about():
-    return {'message': 'about'}
+    return {'message': 'about_new'}
 
 @app.get('/health')
 def health():
