@@ -14,3 +14,7 @@ def hello():
 @app.get('/about')
 def about():
     return {'message': 'about'}
+
+@app.get('/health')
+def health():
+    return {'message': 'health'}
