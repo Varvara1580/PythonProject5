@@ -9,3 +9,8 @@ def index():
 @app.get('/hello')
 def hello():
     return {'message': 'hello'}
+
+
+@app.get('/about')
+def about():
+    return {'message': 'about'}
