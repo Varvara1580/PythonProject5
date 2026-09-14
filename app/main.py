@@ -22,3 +22,7 @@ def health():
 @app.get('/version')
 def version():
     return {'message': 'version'}
+
+@app.get('/1')
+def f_1():
+    return {'message': '1'}
