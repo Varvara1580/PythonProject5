@@ -26,3 +26,7 @@ def version():
 @app.get('/1')
 def f_1():
     return {'message': '1'}
+
+@app.get('/2')
+def f_2():
+    return {'message': '2'}
